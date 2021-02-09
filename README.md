@@ -1,6 +1,8 @@
 # PDF.js Without Canvas
 to use it in backend for pdf parsing.
 
+Basically **reqiure("canvas")** commented and always return undefined for canvas
+
 ## PDF.js
 
 PDF.js is a Portable Document Format (PDF) library that is built with HTML5.
