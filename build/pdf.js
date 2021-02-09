@@ -4466,12 +4466,16 @@ if (_is_node.isNodeJS) {
         throw new Error("Invalid canvas size");
       }
 
-      const Canvas = require("canvas");
+      /*const Canvas = require("canvas");
 
       const canvas = Canvas.createCanvas(width, height);
       return {
         canvas,
         context: canvas.getContext("2d")
+      };*/
+      return {
+        undefined,
+        context: undefined
       };
     }
 
